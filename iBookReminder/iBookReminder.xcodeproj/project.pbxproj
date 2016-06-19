@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1352059D1BE8730A003E3A69 /* EditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1352059C1BE8730A003E3A69 /* EditController.swift */; };
+		13A569391BE736AC0052E653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13A569371BE736AC0052E653 /* Main.storyboard */; };
+		13A5693B1BE736AC0052E653 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13A5693A1BE736AC0052E653 /* Images.xcassets */; };
+		13A5693E1BE736AC0052E653 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A5693C1BE736AC0052E653 /* LaunchScreen.xib */; };
+		13A5694A1BE736AD0052E653 /* iBookReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569491BE736AD0052E653 /* iBookReminderTests.swift */; };
+		13A569571BE7380F0052E653 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13A569551BE7380F0052E653 /* Database.xcdatamodeld */; };
+		13A5695D1BE7424D0052E653 /* CustomAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A5695C1BE7424D0052E653 /* CustomAlertViewController.xib */; };
+		13A569691BE743030052E653 /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569651BE743030052E653 /* FloatRatingView.swift */; };
+		13A5696A1BE743030052E653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569661BE743030052E653 /* ViewController.swift */; };
+		13A5696B1BE743030052E653 /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569671BE743030052E653 /* CustomAlertViewController.swift */; };
+		13A5696C1BE743030052E653 /* CustomAlertViewTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569681BE743030052E653 /* CustomAlertViewTransitioner.swift */; };
+		13A569731BE743110052E653 /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5696D1BE743110052E653 /* SearchController.swift */; };
+		13A569741BE743110052E653 /* AddNewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5696E1BE743110052E653 /* AddNewController.swift */; };
+		13A569751BE743110052E653 /* FristviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5696F1BE743110052E653 /* FristviewCell.swift */; };
+		13A569771BE743110052E653 /* BookInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569711BE743110052E653 /* BookInfoController.swift */; };
+		13A5697D1BE743230052E653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569791BE743230052E653 /* AppDelegate.swift */; };
+		13A5697E1BE743230052E653 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5697A1BE743230052E653 /* FirstViewController.swift */; };
+		13A569801BE743230052E653 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A5697C1BE743230052E653 /* SecondViewController.swift */; };
+		13A569821BE755520052E653 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A569811BE755520052E653 /* Book.swift */; };
+		13C87EF41BFDE47500F3ECF2 /* BooksFromServiceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C87EF31BFDE47500F3ECF2 /* BooksFromServiceTableViewController.swift */; };
+		13C8D7E61BFC79B300EAB5C3 /* SearchResultTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C8D7E51BFC79B300EAB5C3 /* SearchResultTableViewController.swift */; };
+		13CAF1101BF4596C00709E2A /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAF10F1BF4596C00709E2A /* FavoriteViewController.swift */; };
+		13CAF1121BF46F8C00709E2A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAF1111BF46F8C00709E2A /* SearchViewController.swift */; };
+		13CAF1161BF479A000709E2A /* MiscellaneousTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CAF1151BF479A000709E2A /* MiscellaneousTableViewController.swift */; };
+		13CD825C1BF4A90000ACCF00 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A569531BE736D20052E653 /* CoreData.framework */; };
+		13D0C4A91BF1C86C00BBD2B0 /* PurchasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C4A81BF1C86C00BBD2B0 /* PurchasedViewController.swift */; };
+		13D0C4AB1BF201D600BBD2B0 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D0C4AA1BF201D600BBD2B0 /* ReadViewController.swift */; };
+		13D2B9661BECD61C00EE8272 /* CatalogeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D2B9651BECD61C00EE8272 /* CatalogeViewController.swift */; };
+		13D3A9AF1BFF32CA006D74AA /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D3A9AE1BFF32CA006D74AA /* ActivityIndicatorView.swift */; };
+		13D6D4301BF6FD22004E7B6C /* SearchBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13D6D42F1BF6FD22004E7B6C /* SearchBookViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13A569441BE736AD0052E653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13A569241BE736AC0052E653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13A5692B1BE736AC0052E653;
+			remoteInfo = iBookReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1352059C1BE8730A003E3A69 /* EditController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditController.swift; sourceTree = "<group>"; };
+		13A5692C1BE736AC0052E653 /* iBookReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBookReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A569301BE736AC0052E653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A569381BE736AC0052E653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13A5693A1BE736AC0052E653 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13A5693D1BE736AC0052E653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13A569431BE736AD0052E653 /* iBookReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBookReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A569481BE736AD0052E653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A569491BE736AD0052E653 /* iBookReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iBookReminderTests.swift; sourceTree = "<group>"; };
+		13A569531BE736D20052E653 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		13A569561BE7380F0052E653 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		13A569581BE740410052E653 /* Database 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Database 2.xcdatamodel"; sourceTree = "<group>"; };
+		13A5695B1BE741DC0052E653 /* iBookReminder-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iBookReminder-Bridging-Header.h"; sourceTree = "<group>"; };
+		13A5695C1BE7424D0052E653 /* CustomAlertViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomAlertViewController.xib; sourceTree = "<group>"; };
+		13A569651BE743030052E653 /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		13A569661BE743030052E653 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13A569671BE743030052E653 /* CustomAlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		13A569681BE743030052E653 /* CustomAlertViewTransitioner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertViewTransitioner.swift; sourceTree = "<group>"; };
+		13A5696D1BE743110052E653 /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		13A5696E1BE743110052E653 /* AddNewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewController.swift; sourceTree = "<group>"; };
+		13A5696F1BE743110052E653 /* FristviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FristviewCell.swift; sourceTree = "<group>"; };
+		13A569711BE743110052E653 /* BookInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInfoController.swift; sourceTree = "<group>"; };
+		13A569791BE743230052E653 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13A5697A1BE743230052E653 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		13A5697C1BE743230052E653 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		13A569811BE755520052E653 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		13C87EF31BFDE47500F3ECF2 /* BooksFromServiceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BooksFromServiceTableViewController.swift; sourceTree = "<group>"; };
+		13C8D7E51BFC79B300EAB5C3 /* SearchResultTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewController.swift; sourceTree = "<group>"; };
+		13CAF10F1BF4596C00709E2A /* FavoriteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		13CAF1111BF46F8C00709E2A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		13CAF1151BF479A000709E2A /* MiscellaneousTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiscellaneousTableViewController.swift; sourceTree = "<group>"; };
+		13D0C4A81BF1C86C00BBD2B0 /* PurchasedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedViewController.swift; sourceTree = "<group>"; };
+		13D0C4AA1BF201D600BBD2B0 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
+		13D2B9651BECD61C00EE8272 /* CatalogeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogeViewController.swift; sourceTree = "<group>"; };
+		13D3A9AE1BFF32CA006D74AA /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		13D6D42F1BF6FD22004E7B6C /* SearchBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBookViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13A569291BE736AC0052E653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CD825C1BF4A90000ACCF00 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A569401BE736AD0052E653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A569231BE736AC0052E653 = {
+			isa = PBXGroup;
+			children = (
+				13A569551BE7380F0052E653 /* Database.xcdatamodeld */,
+				13A569531BE736D20052E653 /* CoreData.framework */,
+				13A5692E1BE736AC0052E653 /* iBookReminder */,
+				13A569461BE736AD0052E653 /* iBookReminderTests */,
+				13A5692D1BE736AC0052E653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13A5692D1BE736AC0052E653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13A5692C1BE736AC0052E653 /* iBookReminder.app */,
+				13A569431BE736AD0052E653 /* iBookReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13A5692E1BE736AC0052E653 /* iBookReminder */ = {
+			isa = PBXGroup;
+			children = (
+				13A569811BE755520052E653 /* Book.swift */,
+				13A5695F1BE7426B0052E653 /* Rating */,
+				13A5695E1BE742670052E653 /* Files */,
+				13A569791BE743230052E653 /* AppDelegate.swift */,
+				13A5697A1BE743230052E653 /* FirstViewController.swift */,
+				13A5697C1BE743230052E653 /* SecondViewController.swift */,
+				13A569371BE736AC0052E653 /* Main.storyboard */,
+				13A5693A1BE736AC0052E653 /* Images.xcassets */,
+				13A5693C1BE736AC0052E653 /* LaunchScreen.xib */,
+				13A5695C1BE7424D0052E653 /* CustomAlertViewController.xib */,
+				13A5692F1BE736AC0052E653 /* Supporting Files */,
+				13A5695B1BE741DC0052E653 /* iBookReminder-Bridging-Header.h */,
+				13D3A9AE1BFF32CA006D74AA /* ActivityIndicatorView.swift */,
+			);
+			path = iBookReminder;
+			sourceTree = "<group>";
+		};
+		13A5692F1BE736AC0052E653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A569301BE736AC0052E653 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A569461BE736AD0052E653 /* iBookReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				13A569491BE736AD0052E653 /* iBookReminderTests.swift */,
+				13A569471BE736AD0052E653 /* Supporting Files */,
+			);
+			path = iBookReminderTests;
+			sourceTree = "<group>";
+		};
+		13A569471BE736AD0052E653 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A569481BE736AD0052E653 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13A5695E1BE742670052E653 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				13A5696D1BE743110052E653 /* SearchController.swift */,
+				13A5696E1BE743110052E653 /* AddNewController.swift */,
+				13A5696F1BE743110052E653 /* FristviewCell.swift */,
+				13A569711BE743110052E653 /* BookInfoController.swift */,
+				1352059C1BE8730A003E3A69 /* EditController.swift */,
+				13D2B9651BECD61C00EE8272 /* CatalogeViewController.swift */,
+				13D0C4A81BF1C86C00BBD2B0 /* PurchasedViewController.swift */,
+				13D0C4AA1BF201D600BBD2B0 /* ReadViewController.swift */,
+				13CAF10F1BF4596C00709E2A /* FavoriteViewController.swift */,
+				13CAF1111BF46F8C00709E2A /* SearchViewController.swift */,
+				13CAF1151BF479A000709E2A /* MiscellaneousTableViewController.swift */,
+				13D6D42F1BF6FD22004E7B6C /* SearchBookViewController.swift */,
+				13C8D7E51BFC79B300EAB5C3 /* SearchResultTableViewController.swift */,
+				13C87EF31BFDE47500F3ECF2 /* BooksFromServiceTableViewController.swift */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		13A5695F1BE7426B0052E653 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				13A569651BE743030052E653 /* FloatRatingView.swift */,
+				13A569661BE743030052E653 /* ViewController.swift */,
+				13A569671BE743030052E653 /* CustomAlertViewController.swift */,
+				13A569681BE743030052E653 /* CustomAlertViewTransitioner.swift */,
+			);
+			name = Rating;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13A5692B1BE736AC0052E653 /* iBookReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A5694D1BE736AD0052E653 /* Build configuration list for PBXNativeTarget "iBookReminder" */;
+			buildPhases = (
+				13A569281BE736AC0052E653 /* Sources */,
+				13A569291BE736AC0052E653 /* Frameworks */,
+				13A5692A1BE736AC0052E653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iBookReminder;
+			productName = iBookReminder;
+			productReference = 13A5692C1BE736AC0052E653 /* iBookReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13A569421BE736AD0052E653 /* iBookReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13A569501BE736AD0052E653 /* Build configuration list for PBXNativeTarget "iBookReminderTests" */;
+			buildPhases = (
+				13A5693F1BE736AD0052E653 /* Sources */,
+				13A569401BE736AD0052E653 /* Frameworks */,
+				13A569411BE736AD0052E653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13A569451BE736AD0052E653 /* PBXTargetDependency */,
+			);
+			name = iBookReminderTests;
+			productName = iBookReminderTests;
+			productReference = 13A569431BE736AD0052E653 /* iBookReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13A569241BE736AC0052E653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ifconit;
+				TargetAttributes = {
+					13A5692B1BE736AC0052E653 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					13A569421BE736AD0052E653 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 13A5692B1BE736AC0052E653;
+					};
+				};
+			};
+			buildConfigurationList = 13A569271BE736AC0052E653 /* Build configuration list for PBXProject "iBookReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13A569231BE736AC0052E653;
+			productRefGroup = 13A5692D1BE736AC0052E653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13A5692B1BE736AC0052E653 /* iBookReminder */,
+				13A569421BE736AD0052E653 /* iBookReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13A5692A1BE736AC0052E653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5695D1BE7424D0052E653 /* CustomAlertViewController.xib in Resources */,
+				13A569391BE736AC0052E653 /* Main.storyboard in Resources */,
+				13A5693E1BE736AC0052E653 /* LaunchScreen.xib in Resources */,
+				13A5693B1BE736AC0052E653 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A569411BE736AD0052E653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13A569281BE736AC0052E653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A569821BE755520052E653 /* Book.swift in Sources */,
+				13C8D7E61BFC79B300EAB5C3 /* SearchResultTableViewController.swift in Sources */,
+				13A5697E1BE743230052E653 /* FirstViewController.swift in Sources */,
+				13D3A9AF1BFF32CA006D74AA /* ActivityIndicatorView.swift in Sources */,
+				13A569801BE743230052E653 /* SecondViewController.swift in Sources */,
+				13A5696C1BE743030052E653 /* CustomAlertViewTransitioner.swift in Sources */,
+				13A5696A1BE743030052E653 /* ViewController.swift in Sources */,
+				13A569771BE743110052E653 /* BookInfoController.swift in Sources */,
+				13A5697D1BE743230052E653 /* AppDelegate.swift in Sources */,
+				13CAF1101BF4596C00709E2A /* FavoriteViewController.swift in Sources */,
+				1352059D1BE8730A003E3A69 /* EditController.swift in Sources */,
+				13CAF1121BF46F8C00709E2A /* SearchViewController.swift in Sources */,
+				13A569731BE743110052E653 /* SearchController.swift in Sources */,
+				13C87EF41BFDE47500F3ECF2 /* BooksFromServiceTableViewController.swift in Sources */,
+				13A5696B1BE743030052E653 /* CustomAlertViewController.swift in Sources */,
+				13CAF1161BF479A000709E2A /* MiscellaneousTableViewController.swift in Sources */,
+				13D0C4A91BF1C86C00BBD2B0 /* PurchasedViewController.swift in Sources */,
+				13D0C4AB1BF201D600BBD2B0 /* ReadViewController.swift in Sources */,
+				13A569751BE743110052E653 /* FristviewCell.swift in Sources */,
+				13A569741BE743110052E653 /* AddNewController.swift in Sources */,
+				13D6D4301BF6FD22004E7B6C /* SearchBookViewController.swift in Sources */,
+				13A569691BE743030052E653 /* FloatRatingView.swift in Sources */,
+				13D2B9661BECD61C00EE8272 /* CatalogeViewController.swift in Sources */,
+				13A569571BE7380F0052E653 /* Database.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13A5693F1BE736AD0052E653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A5694A1BE736AD0052E653 /* iBookReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13A569451BE736AD0052E653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13A5692B1BE736AC0052E653 /* iBookReminder */;
+			targetProxy = 13A569441BE736AD0052E653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13A569371BE736AC0052E653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A569381BE736AC0052E653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13A5693C1BE736AC0052E653 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13A5693D1BE736AC0052E653 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13A5694B1BE736AD0052E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13A5694C1BE736AD0052E653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13A5694E1BE736AD0052E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = iBookReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iBookReminder/iBookReminder-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13A5694F1BE736AD0052E653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = iBookReminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "iBookReminder/iBookReminder-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		13A569511BE736AD0052E653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iBookReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBookReminder.app/iBookReminder";
+			};
+			name = Debug;
+		};
+		13A569521BE736AD0052E653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iBookReminderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iBookReminder.app/iBookReminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13A569271BE736AC0052E653 /* Build configuration list for PBXProject "iBookReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A5694B1BE736AD0052E653 /* Debug */,
+				13A5694C1BE736AD0052E653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A5694D1BE736AD0052E653 /* Build configuration list for PBXNativeTarget "iBookReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A5694E1BE736AD0052E653 /* Debug */,
+				13A5694F1BE736AD0052E653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13A569501BE736AD0052E653 /* Build configuration list for PBXNativeTarget "iBookReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A569511BE736AD0052E653 /* Debug */,
+				13A569521BE736AD0052E653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		13A569551BE7380F0052E653 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				13A569581BE740410052E653 /* Database 2.xcdatamodel */,
+				13A569561BE7380F0052E653 /* Database.xcdatamodel */,
+			);
+			currentVersion = 13A569581BE740410052E653 /* Database 2.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 13A569241BE736AC0052E653 /* Project object */;
+}

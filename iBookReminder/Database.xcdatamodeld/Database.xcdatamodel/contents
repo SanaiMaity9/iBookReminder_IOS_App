@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14A389" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Book" representedClassName="Database.Book" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bookimg" optional="YES" attributeType="Binary" allowsExternalBinaryDataStorage="YES" syncable="YES"/>
+        <attribute name="desption" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fav" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="1" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" minValueString="1" syncable="YES"/>
+        <attribute name="isbn_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="purchase" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="1" defaultValueString="0" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Float" defaultValueString="0" syncable="YES"/>
+        <attribute name="read" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="1" defaultValueString="0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Book" positionX="-63" positionY="-18" width="128" height="195"/>
+    </elements>
+</model>

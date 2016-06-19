@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAlertViewController" customModule="iBookReminder" customModuleProvider="target">
+            <connections>
+                <outlet property="cancel" destination="LrA-mQ-Jtg" id="TP7-dL-7MM"/>
+                <outlet property="done" destination="AiQ-AP-QuH" id="Dyb-c5-lEa"/>
+                <outlet property="floatRatingView" destination="JSM-Kr-kaI" id="Iks-MI-cXz"/>
+                <outlet property="view" destination="574-mf-rQh" id="WMC-Wa-cgp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="574-mf-rQh" userLabel="AlertView">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="91"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LrA-mQ-Jtg">
+                    <rect key="frame" x="93" y="65" width="52" height="18"/>
+                    <color key="backgroundColor" red="0.3152028093" green="0.061924417129999999" blue="0.16752839310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="doDismiss:" destination="-1" eventType="touchUpInside" id="o3E-Hc-EE0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AiQ-AP-QuH">
+                    <rect key="frame" x="10" y="65" width="52" height="18"/>
+                    <color key="backgroundColor" red="0.3152028093" green="0.061924417129999999" blue="0.16752839310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Done">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="save:" destination="-1" eventType="touchUpInside" id="ebd-YN-Bks"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JSM-Kr-kaI" customClass="FloatRatingView" customModule="iBookReminder" customModuleProvider="target">
+                    <rect key="frame" x="25" y="25" width="105" height="17"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="image" keyPath="emptyImage" value="Emptystar_icon"/>
+                        <userDefinedRuntimeAttribute type="image" keyPath="fullImage" value="Fullstar_icon"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="minRating">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxRating">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="minImageSize">
+                            <size key="value" width="0.0" height="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="editable" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="floatRatings" value="YES"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="halfRatings" value="NO"/>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="translatesAutoresizingMaskIntoConstraints" value="YES"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                            <real key="value" value="0.0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="translatesAutoresizingMaskIntoConstraints" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="160.5" y="367.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Emptystar_icon" width="50" height="48"/>
+        <image name="Fullstar_icon" width="50" height="48"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
